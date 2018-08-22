@@ -1,5 +1,3 @@
-# Test
-Test
 | Column Number| Column Name| Column Description|
 | --- | --- | --- | 
 |1| Chr | chromosome|
