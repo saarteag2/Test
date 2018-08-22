@@ -68,4 +68,5 @@
 |37| frac_of_aff_missing_uncertain_adjusted| Fraction of the affected children carrying the varaint and not missing or uncertain| n_aff_carriers/(fam_n_aff-n_missing_aff-n_uncertain_aff)
 |38| frac_of_unaff_missing_uncertain_adjusted| Fraction of the unaffected children carrying the varaint and not missing or uncertain| n_unaff_carriers/(fam_unaff_children - n_uncertain_unaff - n_missing_unaff)
 |39| Info| LOTS of information here which we chose to annotate. It provides the source information for many of the other separated columns (e.g., consequence, Polyphen, 1000g).|
+
 *Note: inheritance_type includes all inheritance types except "uncertain" or "missing"
