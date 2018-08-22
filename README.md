@@ -1,13 +1,9 @@
 | Column Number| Column Name| Column Description|
 | --- | --- | --- | 
 |1| Chr | chromosome|
-| --- | --- | --- | 
 |2| Position | position within chromosome|
-| --- | --- | --- | 
 |3| Endpos | end position, if applicable|
-| --- | --- | --- | 
 |4| Ref | reference allele|
-| --- | --- | --- | 
 |5| Alt | alternate allele|
 | --- | --- | --- | 
 |6| esp6500siv2_all | alternate allele frequency based on all ethnicities provided in the NHLBI Exome Sequencing Project|
