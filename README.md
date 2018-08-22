@@ -1,4 +1,4 @@
-Flat File Columns:
+**Flat File Columns:**
 
 | Column Number| Column Name| Column Description|
 | --- | --- | --- | 
@@ -25,7 +25,7 @@ Flat File Columns:
 |21| inheritance_type | newly_homozygous, hemizygous (filtered for these two types only)|
 |22| Info | LOTS of information here which we chose to annotate. It provides the source information for many of the other separated columns (e.g., consequence, Polyphen, 1000g).|
 
-Family Aggregation File Columns:
+**Family Aggregation File Columns:**
 
 | Column Number| Column Name| Column Description| Column Formula (If Applicable)|
 | --- | --- | --- | --- |
