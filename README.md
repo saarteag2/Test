@@ -54,7 +54,7 @@
 |23| n_missing_unaff| Number of unaffected children with an inheritance_type=missing|
 |24| n_uncertain_aff| Number of affected children with an inheritance_type=uncertain|
 |25| n_uncertain_unaff| Number of unaffected children with an inheritance_type=uncertain|
-|26| inheritance_type| Lists one or more inheritance types|
+|26| *inheritance_type| Lists one or more inheritance types|
 |27| n_aff_carriers| Number of affected children with an inheritance_type!=uncertain, missing|
 |28| n_aff_noncarriers| Number of unaffected children that are homozygous reference at this site (not in the VCF or inheritance patterns file)|
 |29| n_unaff_carriers| Number of unaffected children with an inheritance_type!=uncertain, missing|
@@ -68,3 +68,4 @@
 |37| frac_of_aff_missing_uncertain_adjusted| Fraction of the affected children carrying the varaint and not missing or uncertain| n_aff_carriers/(fam_n_aff-n_missing_aff-n_uncertain_aff)
 |38| frac_of_unaff_missing_uncertain_adjusted| Fraction of the unaffected children carrying the varaint and not missing or uncertain| n_unaff_carriers/(fam_unaff_children - n_uncertain_unaff - n_missing_unaff)
 |39| Info| LOTS of information here which we chose to annotate. It provides the source information for many of the other separated columns (e.g., consequence, Polyphen, 1000g).|
+*Note: inheritance_type includes all inheritance types except "uncertain" or "missing"
