@@ -1,3 +1,24 @@
+## Transmission Summary README
+
+**Goal:**
+The goal of this script is to create a flat file and family aggregation file. The flat file is a tab-delimited file with one row per variant per child and 22 columns. The family aggregation file is a tab-delimited file with one row per variant per family and 39 columns. In order to create these output files, the script requires two inputs: (1) a ped file with family information and (2) an "inheritance patterns" file as input. This script reformats the inheritance pattern file and parses its INFO field in order to create the flat file and family aggregation file. Note: These files are subsequently split into small files for annotation, annotated (adding additional columns), and then ready for filtering (https://github.com/dhglab/bmap_scripts/tree/master/annotate_transmission_summary). 
+
+**Usage:**
+```
+/usr/local/anaconda2/bin/python /ifs/collabs/geschwind/NGS/NGS_analyses/iHART_genomes/code/make_transmission_flat_db.py <input_file INPUT_FILE > <--out_dir OUT_DIR> <prefix Prefix> <suffix Suffix> [--alt_ped_file ALT_PED_FILE] [--family_only Yes|No] [--SV Yes|No]
+```
+*	<input_file>: The absolute path to the inheritance patterns file to use (Required) <br>
+*	<--out_dir>: The absolute path to the output directory (Required) <br>
+*	< prefix >: The prefix for the output files, defaults to AGRE_transmission.flat (Required) <br>
+*	< suffix >: The suffix for output files (e.g., "chr1" or "SVs") (Required) <br>
+*	[--alt_ped_file]: An alternate ped file. The default ped is /ifs/collabs/geschwind/NGS/NGS_analyses/iHART_genomes/November2015_Analysis/2308passedQC.ped (Optional) <br>
+    - Note: This script expects the .ped file to have a header line== 'IID', 'ID', 'Sex', 'Maternal', 'Paternal', 'Phenotype' <br>
+*	[--family_only]: Omit non-family outputs "Yes" or "No". In bash script must also specify "Yes" or "No" for --SV if using (Optional) <br>
+    -	Option to exclude the flat db output <br>
+*	[--SV]: The input file is structural variants "Yes" or "No" <br>
+    -	Must also specify "Yes" or "No" for --family_only if using. <br>
+
+
 **Flat File Columns:**
 
 | Column Number| Column Name| Column Description|
