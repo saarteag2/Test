@@ -34,7 +34,7 @@ Rscript Coverage_Plots_UserInput_2018-08-16.R <Input File> <Region> <Project> <R
           Each SampleID is labled with one of the following relastionships: Father, Mother, Proband, Sibling
 * **Output Dir**: Absolute path to output directory for coverage plots
 
-#### Example of Coverage Plots are available below ####
+#### Example Coverage Plots are available below ####
 1. Percent of targeted bases covered at >=X (1,10,20,30,40; box plot) <br>
 ![Percentage of Targeted Bases Box Plot](https://preview.ibb.co/nd1V79/Percentage_Of_Target_Bases_Box_Plot.png)
 
