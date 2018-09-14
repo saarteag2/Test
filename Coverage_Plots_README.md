@@ -35,9 +35,10 @@ Rscript Coverage_Plots_UserInput_2018-08-16.R <Input File> <Region> <Project> <R
 * **Output Dir**: Absolute path to output directory for coverage plots
 
 #### Example of Coverage Plots are available below ####
-1. Percent of targeted exonic bases covered at >=X (1,10,20,30,40; box plot) 
-
+1. Percent of targeted exonic bases covered at >=X (1,10,20,30,40; box plot) <br>
+![Box Plot](https://image.ibb.co/fJ1xn9/Screen_Shot_2018_09_14_at_11_40_09_AM.png)
 2. Average fold coverage of targeted bases per sample by family relationship (box plot) 
+
 
 3. Histogram of average coverage 
 
