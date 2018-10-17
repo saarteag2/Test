@@ -7,6 +7,7 @@ The Plot_VariantEval_results.R script creates plots for a given VariantEval Repo
 Rscript Plot_VariantEval_results.R <1:Input File> <2:Output Dir> <3:MDS> [4:MDS-derived race calls] [5:Sample Column] [6:MDS Column]
 ```
   * Input File: Absolute path to VariantEval Report 
+     - Note: Merge per chromosome VariantEval Report files using Merge_Variant_Eval_Reports.py script, if merged VariantEval Report file is not available. 
   * Output Directory: Absolute path to output directory
   * MDS: True if adding MDS-dirived race calls file, False otherwise 
   * MDS-derived race calls: (Optional) File name containing sample IDs and MDS-derived race calls
