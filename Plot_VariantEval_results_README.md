@@ -1,4 +1,4 @@
-## README
+## Plot VariantEval Results README
 
 The Plot_VariantEval_results.R script creates plots for a given VariantEval Report. The script creates seven (7) plots, four (4) text files reporting outliers, and a text file containing the VariantEval report for each module included. 
 
